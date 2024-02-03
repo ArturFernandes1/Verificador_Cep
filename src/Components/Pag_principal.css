@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Assets/green-3d.jpg);
+    background-size:contain; /* ou 'contain' dependendo da preferência */
+    background-position: center center;
+    height: 300px; /* Ajuste a altura conforme necessário */
+   
+
+}
+
+.titulo {
+    color: white;
+    font-size: 38px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descricao{
+    color: white;
+    font-size: 16px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media screen and (max-width: 480px) {
+    .titulo {
+        color: white;
+        font-size: 28px;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center; /* Centraliza na horizontal */
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+    .descricao{
+        color: white;
+        font-size: 14px;
+        margin-top: -10px;
+        display: flex;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+    
+    }
+   
+}

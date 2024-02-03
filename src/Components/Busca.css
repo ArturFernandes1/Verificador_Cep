@@ -1,0 +1,73 @@
+
+/* Adicione estilos adicionais conforme necessário */
+
+.pesquisar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.search-container {
+    width: 180px;
+    margin-top: 20px;
+    border: none;
+    
+}
+
+#searchInput {
+    padding: 14px;
+    border-radius: 6px;
+    border: none;
+   
+
+}
+
+button {
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+   
+}
+
+.search-container {
+    position: relative;
+  }
+  
+.search-container button {
+    position: absolute;
+    top: 50%;
+    right: -15px; /* Ajuste conforme necessário */
+    transform: translateY(-50%);
+  }
+
+
+
+  #searchResults {
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    max-width: 100%; /* Define a largura máxima como 100% da largura do contêiner pai */
+
+    /* Adiciona margem de 5% à esquerda e à direita em telas grandes */
+    margin-left: 25%;
+    margin-right: 25%;
+
+    /* Adiciona margem de 2% à esquerda e à direita em telas médias */
+    @media screen and (max-width: 768px) {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* Adiciona margem de 1% à esquerda e à direita em telas pequenas (como mobile) */
+    @media screen and (max-width: 480px) {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
