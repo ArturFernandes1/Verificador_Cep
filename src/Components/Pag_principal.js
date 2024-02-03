@@ -7,7 +7,7 @@ function Pag_principal(){
         <div className="corpo">
             <div className="container">
                 <h1 className="titulo">Verificador de CEP</h1>
-                <p className="descricao">Digite o cep ou o nome da cidade que deseja encontrar</p>
+                <p className="descricao">Digite o cep da cidade que deseja encontrar</p>
             </div>
 
             <Busca/>
